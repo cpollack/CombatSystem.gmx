@@ -28,6 +28,13 @@
             <string>name = "";
 cost = 0;
 
+hitRating = 0;
+hitPower = 0;
+hitSpd = 0;
+
+reactionSpd = 0;
+techRating = 0;
+hitPwr = 0;
 </string>
           </argument>
         </arguments>

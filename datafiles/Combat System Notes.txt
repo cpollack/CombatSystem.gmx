@@ -1,0 +1,16 @@
+
+Launching / connection screen
+Combat
+Character
+Skills
+Nav/Select opponent screens
+
+
+Data:
+Character and enemy data has to 'live' somewhere. Some potential options are
+1-text file
+2-XML
+3-database
+4-remote database
+1 is easy for init development, but bad for impl. 2 is more secure but difficult to manage with lots of data. 3 is ideal, but may not be very secure. 4 is the final plan for a 'connected' game.
+I will need to do some research to find the best way to store game data and manage connectivity.
