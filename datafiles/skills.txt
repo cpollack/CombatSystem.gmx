@@ -1,0 +1,5 @@
+[Wild Swing]
+hitRating=0.5
+
+[Slash]
+hitRating=0.75

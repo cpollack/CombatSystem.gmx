@@ -1,11 +1,12 @@
 #define scr_handle_attack
 // Handle Attack Skills
 
-var attack = argument0;
-if attack = noone { return noone; }
+var action = argument0;
+var reaction = argument1;
+if action = noone { return noone; }
 
-with(attack) {
-update_log("Player uses [" + name + "]");
+update_log(curActor.name + " uses [" + action.name + "]");
+with(action) {
 switch (name) {
     case "Wild Swing":
         hitRating = 0.5;

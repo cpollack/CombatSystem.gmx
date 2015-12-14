@@ -23,7 +23,7 @@
         break;
     case combatMode.runResults:
         //Run results and apply
-        scr_handle_attack(action);
+        scr_handle_attack(action,reaction);
         //update flow state and reset mode
         action = noone; reaction = noone;
         mode = combatMode.action;        
